@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>IoT.Display.UWP</id>
+    <version>1.0.0-alpha1</version>
+    <title>IoT.Display.UWP</title>
+    <authors>Serhii Zabashta</authors>
+    <owners>Serhii Zabashta</owners>
+    <license type="file">LICENSE</license>
+    <projectUrl>https://github.com/serhiiz/IoT.Display.UWP</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Provides a platform specific UWP layer for a layout library IoT.Display.</description>
+    <releaseNotes>Support for SSD1306 via I2C</releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags>SSD1306 I2C F# Display OLED IoT</tags>
+    <dependencies>
+      <group targetFramework="uap10.0">
+        <dependency id="IoT.Display" version="1.0.0-alpha1" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\LICENSE" target="LICENSE" />
+    <file src="bin\$configuration$\IoT.Display.UWP.dll" target="ref\uap10.0" />
+    <file src="bin\$configuration$\IoT.Display.UWP.pri" target="ref\uap10.0" />
+  </files>
+</package>
