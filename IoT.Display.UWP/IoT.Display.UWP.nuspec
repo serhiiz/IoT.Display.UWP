@@ -15,7 +15,7 @@
     <tags>SSD1306 I2C F# Display OLED IoT</tags>
     <dependencies>
       <group targetFramework="uap10.0">
-        <dependency id="IoT.Display" version="1.0.0-alpha1" />
+        <dependency id="IoT.Display" version="1.0.0-alpha4" />
       </group>
     </dependencies>
   </metadata>
